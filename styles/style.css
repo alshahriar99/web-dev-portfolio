@@ -3,7 +3,7 @@
 .primary-font{
     font-family:open sans;
 }
-
+/* share css */
 .dark-2{
     color: #474747;
 }
@@ -16,6 +16,15 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-discription{
+    font-size: 18px;
+    color: #757575;
+}
 /* header img style */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -23,6 +32,7 @@
     background-position: top left, bottom right;
     background-color: #FFF8F3;
 }
+
 
 /* nav style */
 nav{
@@ -74,4 +84,34 @@ nav ul{
 }
 .banner-pro-img{
     width: 580px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;  
+}
+.aitem-dis{
+    font-weight: 600;
+}
+.about-aitems{
+    display: flex;
+    justify-content: space-around;
+}
+section .about-container{
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+.aitem-titel{
+    color:#757575 ;
+}
+.section-discription{
+    color: #757575;
 }
